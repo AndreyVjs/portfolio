@@ -1,0 +1,329 @@
+{
+  "site": {
+    "profile": {
+      "name": "Andrey Vinicius",
+      "handle": "@AndreyVjs",
+      "role": "Desenvolvedor Mobile | Android | Back-end | Kotlin | Java",
+      "location": "São Paulo, SP",
+      "intro": "Busco minha primeira oportunidade como estagiário na área de TI. Sou estudante de Análise e Desenvolvimento de Sistemas na ETEC Abdias do Nascimento, com foco em Back-end, Kotlin e Java, e gosto de transformar ideias em projetos reais.",
+      "avatar": "kaua.webp"
+    },
+    "builds": [
+      {
+        "id": "quackademy",
+        "title": "Quackademy",
+        "count": "01",
+        "tags": "IA · Gamificação · Mobile · Gestão de projeto",
+        "description": "Aplicativo criado para o The Schools Challenge 2025, combinando IA e gamificação para orientar o aprendizado de autodidatas. Atuei como Gerente de Projeto e desenvolvedor.",
+        "image": "",
+        "visual": "✦",
+        "status": "published",
+        "link": ""
+      },
+      {
+        "id": "health4life",
+        "title": "Health4Life",
+        "count": "02",
+        "tags": "Oracle · Análise de dados · Inteligência artificial",
+        "description": "Projeto desenvolvido no Discover Data com Oracle Education Foundation para analisar dados relacionados à saúde e propor soluções inovadoras.",
+        "image": "",
+        "visual": "⌁",
+        "status": "published",
+        "link": ""
+      },
+      {
+        "id": "cars-scheduling",
+        "title": "CarsScheduling",
+        "count": "03",
+        "tags": "Kotlin · API REST · MySQL",
+        "description": "API REST para um sistema de agendamento voltado para estéticas automotivas, construída com Kotlin e MySQL.",
+        "image": "",
+        "visual": "↗",
+        "status": "published",
+        "link": "https://github.com/AndreyVjs/CarsScheduling"
+      }
+    ],
+    "certificationIntro": "Cursos e certificações que contribuíram para minha formação técnica.",
+    "certifications": [
+      "Kotlin e Spring do ZERO ao Avançado",
+      "COMPETEC 2026 — Programação Java",
+      "Discover Data with Oracle Education Foundation",
+      "Desenvolvendo Aplicações Mobile com Android Studio",
+      "Curso de Inglês — Intermediário"
+    ],
+    "stack": [
+      "Kotlin",
+      "Java",
+      "Spring Boot",
+      "Android",
+      "Python",
+      "SQL",
+      "MySQL",
+      "Git",
+      "Linux",
+      "Firebase",
+      "Android Studio",
+      "IntelliJ IDEA"
+    ],
+    "offers": [
+      {
+        "id": "internship",
+        "label": "OBJETIVO",
+        "title": "Estágio em TI",
+        "meta": "BACK-END · MOBILE · DESENVOLVIMENTO",
+        "description": "Busco minha primeira oportunidade profissional para aplicar meus conhecimentos, aprender com um time e evoluir construindo software de verdade.",
+        "action": "Ver meu currículo"
+      },
+      {
+        "id": "projects",
+        "label": "ABERTO A",
+        "title": "Projetos e colaborações",
+        "meta": "DESENVOLVIMENTO · APRENDIZADO · TECNOLOGIA",
+        "description": "Aberto a projetos que me permitam colocar minhas habilidades em prática e continuar evoluindo como desenvolvedor.",
+        "action": "Vamos conversar"
+      }
+    ],
+    "email": "andreyvjs@gmail.com",
+    "contactLine": "Aberto a oportunidades de estágio, projetos e colaborações em tecnologia.",
+    "playlistId": "45nahgambi4jaGTSQgNDmn",
+    "playlistName": "Playlist do Andrey",
+    "footerLocation": "Andrey Vinicius · São Paulo",
+    "socials": [
+      {
+        "id": "github",
+        "label": "GitHub",
+        "short": "GH",
+        "url": "https://github.com/AndreyVjs"
+      },
+      {
+        "id": "linkedin",
+        "label": "LinkedIn",
+        "short": "in",
+        "url": "https://www.linkedin.com/in/andrey-vinicius-425b45273/"
+      },
+      {
+        "id": "tiktok",
+        "label": "TikTok",
+        "short": "♪",
+        "url": "#"
+      },
+      {
+        "id": "reddit",
+        "label": "Reddit",
+        "short": "●",
+        "url": "#"
+      },
+      {
+        "id": "cv",
+        "label": "Currículo",
+        "short": "▤",
+        "url": "#"
+      }
+    ],
+    "theme": {
+      "latte": {
+        "bg": "#FFFFFF",
+        "surface": "#FFFFFF",
+        "fg": "#211A16",
+        "muted": "#70665E",
+        "line": "#E7DED5",
+        "card": "#F8F3EC",
+        "cardStrong": "#E7A064",
+        "accent": "#C85E1B"
+      },
+      "dark": {
+        "bg": "#090706",
+        "surface": "#15100D",
+        "fg": "#F8EFE4",
+        "muted": "#BDA894",
+        "line": "#3A2A20",
+        "card": "#201711",
+        "cardStrong": "#6B422C",
+        "accent": "#D5A77E"
+      }
+    },
+    "labels": {
+      "buildHeading": "MEUS PROJETOS PRINCIPAIS",
+      "writingTitle": "Caderno de desenvolvimento",
+      "writingIntro": "Ideias que nascem enquanto construo: arquitetura, código, erros úteis e decisões que merecem ser explicadas.",
+      "writingLink": "Explorar o caderno ↗",
+      "projectsTitle": "Outros projetos",
+      "projectsLink": "Ver projetos ↗",
+      "certificationHeading": "CURSOS E CERTIFICADOS",
+      "awardsTitle": "Conquistas",
+      "awardsLink": "Ver trajetória ↗",
+      "journeyTitle": "TRAJETÓRIA",
+      "experienceTitle": "Experiências e projetos",
+      "educationTitle": "Formação acadêmica",
+      "offersTitle": "O que estou buscando",
+      "offersLink": "Saiba mais ↗",
+      "musicTitle": "Ouvindo enquanto programo",
+      "musicLink": "Abrir playlist ↗",
+      "navHome": "Início",
+      "navWriting": "Blog",
+      "navProjects": "Projetos",
+      "navCertifications": "Cursos",
+      "navAwards": "Conquistas",
+      "navJourney": "Trajetória",
+      "navContact": "Contato",
+      "articleKicker": "CADERNO DE DESENVOLVIMENTO",
+      "articleCoverLabel": "NOTAS DE PROJETO",
+      "articleCoverCaption": "Primeiro organizar a ideia. Depois, transformar em código.",
+      "articleTocTitle": "NESTE ARTIGO",
+      "articleEndLabel": "FIM DA LEITURA",
+      "articleEndNote": "Obrigado por dedicar um pouco do seu tempo a estas anotações.",
+      "readingCardKicker": "OUÇA ENQUANTO LÊ · SPOTIFY",
+      "readingCardDescription": "Uma trilha para acompanhar a leitura."
+    }
+  },
+  "projects": [
+    {
+      "id": "reflow-api",
+      "title": "ReflowAPI",
+      "category": "Back-end",
+      "description": "API para uma cooperativa de reciclagem ou empresa de coleta de óleo, com lógica de triagem inteligente de solicitações.",
+      "image": "",
+      "url": "https://github.com/AndreyVjs/ReflowAPI",
+      "status": "published"
+    },
+    {
+      "id": "fecart",
+      "title": "FECART 2026",
+      "category": "Web",
+      "description": "Projeto desenvolvido para a FECART 2026.",
+      "image": "",
+      "url": "https://github.com/AndreyVjs/fecarte-2026",
+      "status": "published"
+    },
+    {
+      "id": "para-lanches",
+      "title": "ParaLanches",
+      "category": "Web",
+      "description": "Sistema de restaurante desenvolvido para a disciplina de Programação Web 2.",
+      "image": "",
+      "url": "https://github.com/AndreyVjs/ParaLanches",
+      "status": "published"
+    },
+    {
+      "id": "cars-scheduling-frontend",
+      "title": "CarsScheduling Front-end",
+      "category": "Web",
+      "description": "Front-end para a API REST de agendamento voltada para estéticas automotivas.",
+      "image": "",
+      "url": "https://github.com/AndreyVjs/CarsSchedulingFrontEnd",
+      "status": "published"
+    },
+    {
+      "id": "folha-pagamento",
+      "title": "Folha de Pagamento",
+      "category": "Java",
+      "description": "Programa para calcular o custo de um funcionário para a empresa considerando impostos e requisitos do projeto escolar.",
+      "image": "",
+      "url": "https://github.com/AndreyVjs/Folha-pagamento",
+      "status": "published"
+    },
+    {
+      "id": "sql",
+      "title": "Códigos SQL",
+      "category": "Banco de dados",
+      "description": "Repositório com scripts SQL produzidos durante a disciplina de Banco de Dados.",
+      "image": "",
+      "url": "https://github.com/AndreyVjs/Codigos-SQL",
+      "status": "published"
+    }
+  ],
+  "articles": [
+    {
+      "slug": "desenhar-antes-de-programar",
+      "title": "Antes de programar, desenhe o sistema",
+      "date": "15 out. 2026",
+      "category": "Arquitetura de software",
+      "readTime": "6 min de leitura",
+      "label": "IDEIAS EM CONSTRUÇÃO",
+      "dek": "Um diagrama simples pode revelar dependências, separar responsabilidades e evitar que uma boa ideia vire um emaranhado de código.",
+      "intro": "Quando começo um projeto, a tentação é abrir a IDE e sair criando classes. Mas alguns minutos organizando o fluxo e as responsabilidades costumam economizar muito mais tempo depois.",
+      "image": "blog-arquitetura.svg",
+      "body": "## O problema começa antes do código\n\nÉ fácil confundir progresso com quantidade de arquivos criados. Só que, sem uma visão do sistema, decisões pequenas se acumulam: uma classe conhece detalhes demais, uma rota assume várias responsabilidades e cada mudança parece quebrar outra parte.\n\nUm diagrama não precisa ser bonito nem seguir uma notação complexa. Ele precisa deixar visível o que conversa com o quê e por onde os dados passam.\n\n## Desenhe para pensar, não para decorar\n\nAntes de escolher uma arquitetura, tento responder três perguntas: quem usa o sistema, qual problema cada parte resolve e como uma parte entrega informação para a próxima.\n\n- **Fluxo:** o que acontece desde a ação do usuário até a resposta?\n- **Responsabilidades:** qual parte valida, decide, persiste e apresenta os dados?\n- **Limites:** o que cada módulo precisa saber — e o que deveria ignorar?\n\n> Um bom diagrama não prevê cada detalhe. Ele mostra onde vale a pena tomar a próxima decisão.\n\n## Um exemplo pequeno\n\nEm uma API de agendamentos, separar a entrada HTTP da regra de negócio e do acesso aos dados ajuda a enxergar as dependências antes que elas se misturem.\n\n```kotlin\nclass CreateBookingUseCase(\n    private val repository: BookingRepository\n) {\n    fun execute(request: BookingRequest): Booking {\n        request.validate()\n        return repository.save(request.toBooking())\n    }\n}\n```\n\nO exemplo é simples de propósito: a regra de criação não precisa conhecer o controller nem os detalhes do banco. O desenho ajuda a discutir essa fronteira antes de espalhá-la pelo projeto.\n\n## Da ideia para uma estrutura útil\n\nDepois do rascunho, transformo cada bloco em uma responsabilidade e verifico se as dependências fazem sentido. Só então decido nomes, pacotes e implementações. Se o projeto mudar, o diagrama também pode mudar — ele é uma ferramenta de raciocínio, não um contrato imutável.\n\n## O que levo disso\n\nDesenhar primeiro não é burocracia nem desculpa para adiar o código. É uma forma rápida de reduzir incerteza, comunicar uma ideia e construir uma base que continue compreensível quando o projeto crescer.\n\nMeu objetivo não é planejar tudo perfeitamente. É começar entendendo o suficiente para que o próximo passo seja intencional.",
+      "status": "published"
+    }
+  ],
+  "awards": [
+    {
+      "id": "award-quackademy",
+      "place": "FINALISTA",
+      "title": "The Schools Challenge 2025",
+      "track": "Projeto Quackademy · JPMorganChase",
+      "description": "Atuei como Gerente de Projeto e desenvolvedor no Quackademy, um aplicativo que utiliza IA e gamificação para orientar o aprendizado de autodidatas.",
+      "url": ""
+    },
+    {
+      "id": "award-hackabidias",
+      "place": "PARTICIPAÇÃO",
+      "title": "Hackabidias 2025",
+      "track": "Hackathon",
+      "description": "Participação em hackathon durante minha formação técnica.",
+      "url": ""
+    },
+    {
+      "id": "award-robocode",
+      "place": "CONVOCADO",
+      "title": "Robocode 2025",
+      "track": "Campeonato de programação do CPS",
+      "description": "Convocado para participar do campeonato de programação do Centro Paula Souza.",
+      "url": ""
+    },
+    {
+      "id": "award-competec",
+      "place": "PARTICIPAÇÃO",
+      "title": "COMPETEC 2026",
+      "track": "Programação Java · PET-SI EACH-USP",
+      "description": "Participação no campeonato de programação do Competec 2026.",
+      "url": ""
+    }
+  ],
+  "experience": [
+    {
+      "id": "exp-quackademy",
+      "company": "The Schools Challenge 2025",
+      "role": "Gestor de projeto e desenvolvedor — Quackademy",
+      "type": "Projeto",
+      "period": "2025",
+      "skills": "Gestão de projetos · IA · Gamificação · Trabalho em equipe"
+    },
+    {
+      "id": "exp-health4life",
+      "company": "Discover Data — Oracle Education Foundation",
+      "role": "Desenvolvedor — Health4Life",
+      "type": "Projeto",
+      "period": "2026",
+      "skills": "Análise de dados · Inteligência artificial · Oracle Analytics Cloud"
+    },
+    {
+      "id": "exp-competec",
+      "company": "COMPETEC 2026",
+      "role": "Participante",
+      "type": "Competição",
+      "period": "2026",
+      "skills": "Java · Programação · Trabalho em equipe"
+    },
+    {
+      "id": "exp-robocode",
+      "company": "Robocode 2025",
+      "role": "Participante convocado",
+      "type": "Competição",
+      "period": "2025",
+      "skills": "Programação · Competição"
+    }
+  ],
+  "education": [
+    {
+      "id": "education-1",
+      "school": "ETEC Abdias do Nascimento",
+      "title": "Ensino Médio + Técnico em Análise e Desenvolvimento de Sistemas",
+      "level": "Em andamento",
+      "period": "02.2025 - 12.2027",
+      "topics": "Análise e Desenvolvimento de Sistemas · Gestão de projetos · Comunicação · Resolução de problemas",
+      "logo": ""
+    }
+  ]
+}

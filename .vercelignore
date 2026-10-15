@@ -1,0 +1,12 @@
+node_modules/
+rea/
+reference.html
+data/auth.json
+data/backups/
+data/server.log
+data/server.pid
+data/content.json.tmp
+assets/uploads/
+.git/
+.env
+.env.*

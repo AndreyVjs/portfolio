@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#15120F">
+<title>Painel do portfólio</title>
+<link rel="stylesheet" href="admin.css?v=2">
+</head>
+<body>
+<div id="login-view" class="login-view">
+  <div class="login-card">
+    <a class="admin-brand" href="/">KM<span>.</span></a>
+    <p class="eyebrow">PORTFÓLIO · PAINEL PRIVADO</p>
+    <h1 id="login-title">Entre no seu painel.</h1>
+    <p id="login-description" class="muted">Gerencie os projetos, artigos e a página sem editar código.</p>
+    <form id="auth-form">
+      <label id="password-label" for="password">Senha</label>
+      <input id="password" type="password" autocomplete="current-password" minlength="12" required placeholder="Pelo menos 12 caracteres">
+      <label id="password-confirm-label" for="password-confirm" hidden>Confirme a senha</label>
+      <input id="password-confirm" type="password" autocomplete="new-password" minlength="12" hidden placeholder="Repita a senha">
+      <button class="primary full" type="submit" id="auth-submit">Entrar</button>
+      <p id="auth-error" class="form-error" aria-live="polite"></p>
+    </form>
+    <p class="login-note">Acesso local neste computador. Os dados são salvos no próprio projeto.</p>
+  </div>
+</div>
+<div id="admin-app" hidden>
+  <header class="admin-topbar">
+    <a class="admin-brand" href="/">KM<span>.</span></a>
+    <div class="topbar-label"><span class="status-dot"></span> Gerenciador de conteúdo</div>
+    <div class="topbar-actions">
+      <span id="save-state" class="save-state">Tudo salvo</span>
+      <button id="save-button" class="primary" type="button">Salvar alterações</button>
+      <a class="quiet-button" href="/" target="_blank" rel="noopener">Ver site ↗</a>
+      <button id="logout-button" class="quiet-button" type="button">Sair</button>
+    </div>
+  </header>
+  <div class="admin-layout">
+    <aside class="sidebar">
+      <p class="eyebrow">CONTEÚDO</p>
+      <nav id="section-nav" class="section-nav" aria-label="Seções de edição"></nav>
+      <div class="sidebar-bottom">
+        <a href="/api/admin/export" class="sidebar-link">↓ Exportar conteúdo</a>
+        <label class="sidebar-link import-link">↑ Importar backup<input id="import-file" type="file" accept="application/json,.json" hidden></label>
+        <p>O painel cria backups antes de salvar.</p>
+      </div>
+    </aside>
+    <main class="workspace">
+      <div id="workspace-header" class="workspace-header"></div>
+      <div id="workspace-body"></div>
+      <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    </main>
+  </div>
+</div>
+<script src="admin.js?v=2"></script>
+</body>
+</html>

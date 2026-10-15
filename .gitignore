@@ -1,0 +1,13 @@
+data/auth.json
+data/server.pid
+data/server.log
+data/backups/
+data/content.json.tmp
+assets/uploads/
+node_modules/
+.vercel/
+.env
+.env.*
+!.env.example
+.vercel
+.env*

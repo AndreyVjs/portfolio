@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@vercel/blob": "^2.8.2"
+  },
+  "name": "portfolio-cms",
+  "private": true,
+  "version": "1.0.0",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "start": "node server.cjs",
+    "vercel:check": "node --check \"api/_handler.cjs\" && find api -name \"*.js\" -print0 | xargs -0 -n1 node --check && node --check app.js && node --check admin.js && node --check server.cjs"
+  }
+}
