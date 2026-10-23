@@ -1013,3 +1013,163 @@ body:not(.dark) .awards .award .place,
 body:not(.dark) .experience .award .place,
 body:not(.dark) .experiences .award .place{font-size:14px!important;line-height:1.5!important}
 @media(max-width:700px){body:not(.dark) .stack{grid-template-columns:repeat(2,minmax(0,1fr))!important;padding:18px!important}}
+
+
+/* Solicitações de identidade: tema claro bege suave e tema escuro estritamente preto/branco */
+body.dark, body.dark main, body.dark .top, body.dark .reader-shell, body.dark .reader-main,
+body.dark .featured, body.dark .project, body.dark .writing-card, body.dark .offer,
+body.dark .certText, body.dark .stack, body.dark .award, body.dark .timeline-item,
+body.dark .project .pic, body.dark .featuredVisual, body.dark .writing-cover,
+body.dark .spotify-player, body.dark .reader-music-widget {
+  background-color:#000 !important;
+  background-image:none !important;
+  color:#fff !important;
+  border-color:#333 !important;
+  box-shadow:none !important;
+}
+body.dark, body.dark main:not(.reader-main) { --bg:#000; --surface:#000; --fg:#fff; --muted:#c8c8c8; --line:#333; --card:#111; --card-strong:#666; --accent:#fff; --accent-contrast:#000; background:#000 !important; color:#fff !important; }
+body.dark h1, body.dark h2, body.dark h3, body.dark p, body.dark span, body.dark strong,
+body.dark .sectionLabel, body.dark .count, body.dark .mini, body.dark .tags,
+body.dark .projectInfo h3, body.dark .projectInfo p, body.dark .certNames span,
+body.dark .stack span, body.dark .award *, body.dark .reader-mark,
+body.dark .reader-kicker, body.dark .reader-toc, body.dark .reader-content,
+body.dark .reader-byline, body.dark .reader-footer, body.dark .site-footer,
+body.dark .links a, body.dark .social-grid a { color:#fff !important; }
+body.dark a, body.dark button { color:#fff; }
+body.dark .featured-open, body.dark .heroLinks a, body.dark .project-detail-actions a {
+  color:#fff !important; background:#000 !important; border:1px solid #777 !important;
+}
+body.dark .featuredVisual, body.dark .project .pic, body.dark .writing-cover { background:#111 !important; }
+body.dark .reader-progress-track { background:#222 !important; }
+body.dark .reader-progress-fill { background:#fff !important; }
+body.dark .certText, body.dark .stack { border:1px solid #333 !important; }
+body.dark .certNames span { border-bottom:1px solid #333 !important; }
+body.dark .stack span { background:transparent !important; border:0 !important; }
+body.dark ::selection { background:#fff; color:#000; }
+
+/* Música na leitura — discreta, mas com a interface completa do Spotify */
+.reader-music-widget {
+  position:fixed; z-index:30; right:16px; bottom:16px; width:min(320px,calc(100vw - 28px));
+  padding:8px; border:1px solid var(--line); border-radius:6px;
+  background:var(--surface); color:var(--fg); box-shadow:0 6px 20px rgba(0,0,0,.10);
+}
+.reader-music-widget-head { display:flex; align-items:center; justify-content:space-between; gap:8px; margin-bottom:5px; }
+.reader-music-widget-head > div { display:flex; flex-direction:column; min-width:0; gap:2px; }
+.reader-music-widget-head span { color:var(--muted); font:7px 'DM Mono',monospace; letter-spacing:.1em; }
+.reader-music-widget-head strong { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font-size:10px; font-weight:500; }
+.reader-music-widget-head button { flex:0 0 auto; border:1px solid var(--line); background:transparent; color:var(--fg); border-radius:50%; width:22px; height:22px; cursor:pointer; line-height:1; }
+.reader-music-widget iframe { display:block; width:100%; height:152px; border:0; border-radius:4px; }
+.reader-music-open { display:block; text-align:right; margin-top:4px; color:var(--muted); font:7px 'DM Mono',monospace; }
+body.dark .reader-music-widget { background:#000 !important; border-color:#333 !important; }
+body.dark .reader-music-widget iframe { filter:none; }
+
+/* Página dedicada para explorar todos os artigos */
+.blog-index-hero { max-width:820px; margin:0 auto; padding:72px 0 44px; }
+.blog-index-hero h1 { margin:18px 0 12px; font:500 clamp(42px,6vw,68px)/1.02 'Playfair Display',serif; letter-spacing:-.05em; }
+.blog-index-hero p { max-width:650px; margin:0; color:var(--muted); font-size:16px; line-height:1.8; }
+.blog-index-list { max-width:980px; margin:0 auto; padding:0 0 58px; }
+.blog-index-list .sectionHead { margin-bottom:20px; }
+.blog-index-list .writing-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+.blog-index-list .writing-card.is-featured { grid-column:1 / -1; }
+@media(max-width:760px){
+  .reader-music-widget { right:10px; bottom:10px; width:min(300px,calc(100vw - 20px)); }
+  .reader-music-widget iframe { height:152px; }
+  .blog-index-hero { padding:48px 0 32px; }
+  .blog-index-list .writing-grid { grid-template-columns:1fr; }
+  .blog-index-list .writing-card.is-featured { grid-column:auto; }
+}
+
+/* Páginas dedicadas aos projetos */
+.project-detail-trigger { cursor:pointer; transition:transform .18s,border-color .18s; }
+.project-detail-trigger:hover { transform:translateY(-2px); }
+.project-detail-trigger:focus-visible { outline:2px solid var(--accent); outline-offset:3px; }
+.project-detail-actions { display:flex; flex-wrap:wrap; align-items:center; gap:10px; margin-top:22px; }
+.project-detail-actions .featured-open { display:inline-flex; padding:10px 13px; text-decoration:none; }
+.project-detail-back { color:var(--muted); font-size:12px; }
+.project-detail-cover { max-width:900px; margin:35px auto 0; }
+.project-detail-cover img { max-height:450px; object-fit:contain; }
+.project-detail-body { max-width:690px; margin:45px auto 10px; padding:28px; border:1px solid var(--line); background:var(--card); }
+.project-detail-body h2 { margin:12px 0; font-size:clamp(22px,3vw,34px); font-weight:500; }
+.project-detail-body p { color:var(--muted); font-size:15px; line-height:1.85; }
+.project-detail-tags { display:flex; flex-wrap:wrap; gap:8px; margin-top:22px; }
+.project-detail-tags span { padding:7px 10px; border:1px solid var(--line); font-size:11px; }
+body.dark .project-detail-body { background:#000 !important; border-color:#333 !important; }
+@media(max-width:600px){.project-detail-body{margin:28px 0;padding:20px}.project-detail-cover{margin-top:24px}}
+
+/* Refinamento pedido: tema escuro grafite suave e tecnologias organizadas */
+body.dark, body.dark main:not(.reader-main), body.dark .top, body.dark .reader-shell,
+body.dark .reader-main, body.dark .featured, body.dark .project, body.dark .writing-card,
+body.dark .offer, body.dark .certText, body.dark .stack, body.dark .award,
+body.dark .timeline-item, body.dark .project .pic, body.dark .featuredVisual,
+body.dark .writing-cover, body.dark .spotify-player, body.dark .reader-music-widget {
+  background-color:#191919 !important;
+  background-image:none !important;
+  color:#F2F2F2 !important;
+  border-color:#383838 !important;
+  box-shadow:none !important;
+}
+body.dark, body.dark main:not(.reader-main) {
+  --bg:#171717; --surface:#1C1C1C; --fg:#F2F2F2; --muted:#B8B8B8;
+  --line:#383838; --card:#222222; --card-strong:#303030; --accent:#D2D2D2;
+  --accent-contrast:#171717; background:#171717 !important; color:#F2F2F2 !important;
+}
+body.dark h1, body.dark h2, body.dark h3, body.dark p, body.dark span, body.dark strong,
+body.dark .sectionLabel, body.dark .count, body.dark .mini, body.dark .tags,
+body.dark .projectInfo h3, body.dark .projectInfo p, body.dark .certNames span,
+body.dark .stack span, body.dark .award *, body.dark .reader-mark, body.dark .reader-kicker,
+body.dark .reader-toc, body.dark .reader-content, body.dark .reader-byline,
+body.dark .reader-footer, body.dark .site-footer, body.dark .links a,
+body.dark .social-grid a { color:#F2F2F2 !important; }
+body.dark .featuredVisual, body.dark .project .pic, body.dark .writing-cover { background:#242424 !important; }
+body.dark .featured-open, body.dark .heroLinks a, body.dark .project-detail-actions a {
+  color:#F2F2F2 !important; background:#242424 !important; border:1px solid #555 !important;
+}
+body.dark .reader-progress-track { background:#333 !important; }
+body.dark .reader-progress-fill { background:#D2D2D2 !important; }
+body.dark .certText, body.dark .stack { border:1px solid #383838 !important; }
+body.dark .certNames span { border-bottom:1px solid #383838 !important; }
+body.dark .stack span { background:transparent !important; border:0 !important; }
+body.dark ::selection { background:#D2D2D2; color:#171717; }
+
+/* Tecnologias: mesma composição nos dois temas, alinhada e sem deslocamentos aleatórios */
+.certGrid { grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr) !important; gap:24px !important; align-items:stretch; }
+.stack {
+  position:relative !important; display:flex !important; flex-wrap:wrap !important;
+  align-content:flex-start !important; align-items:flex-start !important; align-self:stretch !important;
+  gap:9px !important; min-height:0 !important; padding:20px !important;
+  border:1px solid var(--line) !important; border-radius:5px !important;
+  background:var(--card) !important; box-sizing:border-box !important;
+}
+.stack::before {
+  content:'TECNOLOGIAS' !important; display:block !important; flex:0 0 100% !important;
+  margin:0 0 7px !important; color:var(--muted) !important;
+  font:9px 'DM Mono',monospace !important; letter-spacing:.14em !important;
+}
+.stack span {
+  display:inline-flex !important; align-items:center !important; justify-self:auto !important;
+  align-self:auto !important; white-space:normal !important; transform:none !important;
+  min-height:28px !important; padding:6px 9px !important;
+  border:1px solid var(--line) !important; border-radius:3px !important;
+  background:var(--surface) !important; color:var(--muted) !important;
+  font:10px 'DM Mono',monospace !important; line-height:1.4 !important;
+}
+.stack span:hover { border-color:var(--accent) !important; color:var(--fg) !important; }
+body.dark .stack { background:#202020 !important; border-color:#383838 !important; }
+body.dark .stack span { background:#292929 !important; border-color:#444 !important; color:#E8E8E8 !important; }
+body.dark .certText { background:#202020 !important; border-color:#383838 !important; }
+
+/* Player compacto por padrão; expandir mostra controles completos do Spotify */
+.reader-music-widget { width:min(285px,calc(100vw - 28px)) !important; padding:8px !important; }
+.reader-music-widget.is-compact iframe { height:80px !important; }
+.reader-music-widget.is-compact .reader-music-open { display:none !important; }
+.reader-music-widget:not(.is-compact) iframe { height:152px !important; }
+.reader-music-controls { display:flex !important; flex-direction:row !important; gap:5px !important; }
+.reader-music-widget-head .reader-music-controls button { width:24px; height:24px; }
+.reader-music-widget.is-compact { padding-bottom:6px !important; }
+.reader-music-widget:not(.is-compact) { width:min(320px,calc(100vw - 28px)) !important; }
+.reader-music-widget.is-compact .reader-music-widget-head { margin-bottom:0 !important; }
+@media(max-width:700px) {
+  .certGrid { grid-template-columns:1fr !important; }
+  .certText { border-right:0 !important; }
+  .stack { min-height:0 !important; }
+}

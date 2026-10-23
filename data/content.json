@@ -122,24 +122,24 @@
     ],
     "theme": {
       "latte": {
-        "bg": "#FFFFFF",
-        "surface": "#FFFFFF",
+        "bg": "#F7F3ED",
+        "surface": "#FAF8F4",
         "fg": "#211A16",
         "muted": "#70665E",
-        "line": "#E7DED5",
-        "card": "#F8F3EC",
-        "cardStrong": "#E7A064",
-        "accent": "#C85E1B"
+        "line": "#DDD3C8",
+        "card": "#EFE8DE",
+        "cardStrong": "#DED3C5",
+        "accent": "#6F6257"
       },
       "dark": {
-        "bg": "#090706",
-        "surface": "#15100D",
-        "fg": "#F8EFE4",
-        "muted": "#BDA894",
-        "line": "#3A2A20",
-        "card": "#201711",
-        "cardStrong": "#6B422C",
-        "accent": "#D5A77E"
+        "bg": "#000000",
+        "surface": "#000000",
+        "fg": "#FFFFFF",
+        "muted": "#C8C8C8",
+        "line": "#333333",
+        "card": "#111111",
+        "cardStrong": "#666666",
+        "accent": "#FFFFFF"
       }
     },
     "labels": {
@@ -229,6 +229,33 @@
       "description": "Repositório com scripts SQL produzidos durante a disciplina de Banco de Dados.",
       "image": "",
       "url": "https://github.com/AndreyVjs/Codigos-SQL",
+      "status": "published"
+    },
+    {
+      "id": "materia-aplicativos-mobile",
+      "title": "Matéria Aplicativos Mobile",
+      "category": "Mobile",
+      "description": "Repositório com projetos e atividades desenvolvidos na disciplina de Aplicativos Mobile.",
+      "image": "",
+      "url": "https://github.com/AndreyVjs/Materia-Aplicativos-Mobile",
+      "status": "published"
+    },
+    {
+      "id": "curso-platform",
+      "title": "Curso Platform",
+      "category": "Plataforma educacional",
+      "description": "Plataforma de cursos e aprendizado online.",
+      "image": "",
+      "url": "https://github.com/AndreyVjs/curso-platform",
+      "status": "published"
+    },
+    {
+      "id": "votara",
+      "title": "Votara",
+      "category": "Web",
+      "description": "Projeto web para uma plataforma de votação.",
+      "image": "",
+      "url": "https://github.com/AndreyVjs/Votara",
       "status": "published"
     }
   ],

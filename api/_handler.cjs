@@ -44,6 +44,12 @@ async function content(){
  if(missing().includes('Vercel Blob privado conectado ao projeto'))return seed();
  let c=await blobJSON(CONTENT);
  if(!c){c=seed();await put(CONTENT,JSON.stringify(c),{access:'private',addRandomSuffix:false,allowOverwrite:true,contentType:'application/json; charset=utf-8'});}
+ else {
+  // Incorporate newly seeded projects without overwriting any existing CMS content.
+  const known=new Set(c.projects.map(p=>String(p.id||'')));
+  const additions=SEED_DATA.projects.filter(p=>!known.has(String(p.id||''))&&['curso-platform','votara'].includes(String(p.id||'')));
+  if(additions.length){c.projects.push(...additions);await save(c);}
+ }
  return c;
 }
 function validate(c){
